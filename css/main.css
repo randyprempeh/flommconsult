@@ -1,0 +1,316 @@
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Parisienne');
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
+
+body {
+    font-family: 'Iceland', cursive;
+    background: white;
+}
+h2,h3,h4,h6 {
+    font-weight: 600;
+}
+h2 {
+    font-size: 7rem;
+    font-family: 'Orbitron', sans-serif !important;
+}
+h5 {
+    font-size: 1.5rem;
+    font-family: 'Parisienne', cursive;
+    letter-spacing: 5px;
+    font-weight: 900;
+}
+
+/* slider section */
+.sub-motives {
+    font-size: 3.5rem;
+    padding-top: 2.5rem;
+}
+.sub-motives span {
+    color: crimson;
+}
+
+
+/* navBar */
+nav {
+    background: unset;
+}
+.brand-logo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+#text-menu a { 
+    font-size: 20px;
+}
+#mobile-nav {
+    background: rgba(0, 0,0,0.3);
+}
+#mobile-nav a {
+    color: #fff;
+    font-size: 22px;
+}
+#mobile-nav a:hover {
+    color: rgb(52, 109, 175);
+}
+
+
+/* search section */
+.section-search input {
+    padding: 5px !important;
+    font-size: 19px !important;
+    width: 90% !important;
+    border: #6189bd 2px solid !important;
+}
+.parallax-container .parallax img {
+    opacity: 1;
+    transform: translate(-50%, 40.67px, 0px);
+}
+.step.card-panel {
+    -moz-box-shadow:    inset 0 0 30px #000000;
+    -webkit-box-shadow: inset 0 0 30px #000000;
+    box-shadow:         inset 0 0 30px #000000;
+    border-radius: 10px;  
+}
+
+ 
+/* icons section */
+.section-icons {
+    padding: 2rem 0;  
+    background-image: url(/img/icons/wall.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;     
+}
+.para-mini {
+    font-family: 'Just Another Hand', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 0;
+    color: #55acee !important;
+}
+.material-icons {
+    opacity: 1;
+    -webkit-transition: 0.6s ease-out;
+    -moz-transition:  0.6s ease-out;
+    transition:  0.6s ease-out;   
+}
+
+  /* js addlist css to be called during DOM styling  */
+  /* Material icons classes */
+.search-spin {
+    transform:rotate(720deg);
+    color:transparent;
+    transition: all 3s;
+}
+.call-wrapper {
+    color: rgba(185, 185, 185, 0.2);
+    text-shadow: 0 0 15px #296b0f;
+    transition: all 0.5s ease;
+    transform: scale(1.3);
+    backface-visibility: hidden;
+    animation: wiggle .1s infinite alternate;
+}
+@keyframes wiggle {
+    0% { transform: rotate(-2deg); }
+    100% { transform: rotate(2deg); }
+  }
+.plane-move {
+    position: relative;
+    bottom: 10px; 
+    animation: move 3s ease infinite;   
+}
+@keyframes move {
+    50% {
+    bottom: 80px;
+    color: transparent;
+    opacity: 0.4; 
+      } 
+}
+.step-up {
+    background: rgba(0, 0,0,0.6);
+    transform: scale(1.02);
+    transition: all .5s;
+    color: white;
+    border: 2px none #000;
+    box-shadow: 2px 5px 2px .4 #1212;
+    overflow: hidden;
+    backface-visibility: visible; 
+}
+.main-streamAdd {
+    text-decoration: underline overline;
+    padding: 5px;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 1s;
+}
+
+
+/* programs Section */
+.program-info {
+    width: 100%;
+    background: rgba(0, 0,0,0.7);
+}
+.highlight {
+    color: teal;
+    font-weight: 900; 
+}
+
+/* about Section */
+.core-values {
+    color: #fff;
+    background-color: #000;
+    background-image: linear-gradient(315deg, #f2f2 45%, #000 74%);
+    height: 200px;
+    padding: .5rem;
+    border-radius: 5px;
+    text-transform: lowercase;
+}
+.flomm-stats {
+    font-size: 1.1rem;
+}
+.core_header {
+    font-size: .9rem;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+    font-family: monospace;
+    font-weight: 900;
+    letter-spacing: 6px;
+}
+.freestyle {
+    font-family: 'Just Another Hand', cursive;
+    font-weight: normal;
+    font-size: 4.8em;
+    letter-spacing: 15px;
+}
+.freestyle .pop {
+    display: inline-block;
+    line-height: 1em;
+}
+.freestyle-mini {
+    font-family: 'Just Another Hand', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 0;
+    color: #55acee !important;
+}
+.bio {
+    font-size: 1.3rem;
+    text-align: left;
+}
+.abt-bgn {
+    border-radius: 10px;
+    background: linear-gradient(#971b8d, #3b47d1);    
+} 
+.image-wrapper {
+    position: relative;
+    padding: 30px 10px;
+    margin: 20px auto; 
+}
+.image-profile {
+    -webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+    opacity: 1; 
+    transition: .5s ease;
+    backface-visibility: hidden;
+    box-shadow: 1px 5px 5px 12px rgb(17, 17, 17);
+} 
+.profile-info {
+    transition: .5s ease;
+    opacity: 0; 
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+} 
+.image-wrapper:hover .image-profile {
+    opacity: 0.3;
+    cursor: pointer;
+    -webkit-filter: grayscale(100%) blur(3px);
+	filter: grayscale(100%) blur(3px);
+}
+.image-wrapper:hover .profile-info {
+    opacity: 1;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: rgba(0, 0,0,0.8);
+}
+
+/* contact section */
+.collection-item {
+    font-size: 1.6rem;
+    font-style: oblique;
+    text-shadow: #ff4;
+}
+
+
+/* Media query  Css*/
+@media (max-width: 576px) { 
+    h2 {
+    font-size: 3.8rem;
+    }
+
+    .flomm_logo {
+        width: 350px;
+        height: 350px;
+    }
+
+    .flomm-stats {
+        font-size: 1.3rem;
+     }    
+}
+ 
+@media (min-width: 577px) and (max-width: 900px) { 
+    h2 {
+    font-size: 5rem;
+    }
+
+    .flomm-stats {
+        font-size: .9rem;
+     }
+
+    .flomm_logo {
+        width: 360px;
+        height: 360px;
+    }
+}
+
+/* social-media Section */
+.section-socialmedia .fa-4x {
+    margin: 5px 10px;
+}
+.s-media {
+    margin: 2rem 1rem;
+} 
+.s-media:hover {
+    background:  transparent;
+    animation: reverse 0.7s 1;
+}
+.s-media .fa-4x {
+    transition: 0.1s linear;
+}
+.s-media .fa-4x:hover {
+    transform: scale(1.2);
+    transform: rotate(45deg);  
+    border-radius: 50%;
+}
+.fa-facebook:hover {
+    color: #3b5998;
+    background: white;
+}
+.fa-twitter:hover {
+    color:  #55acee;
+  }
+.fa-linkedin:hover {
+    color:  #007bb6;
+    background: white;
+  }
+  .fa-google-plus:hover {
+    color:  #d34836;
+    background: white;   
+  }
+  .fa-instagram:hover {
+    background: linear-gradient(45deg, #405de6,#5851db,#833ab4,#c13584,#e1306c,#fd1d1d) 
+  }
