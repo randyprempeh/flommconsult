@@ -78,7 +78,7 @@ nav {
 /* icons section */
 .section-icons {
     padding: 2rem 0;  
-    background-image: url("img/icons/wall.jpg");
+    background-image: url("./img/icons/wall.jpg");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;     
